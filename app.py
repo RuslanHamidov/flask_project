@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET", "POST"], strict_slashes=False)
 def home_page():
-    print(get_user())
+    users = get_user()
     if not g.user:
-        return render_template("login.html")
+        return render_template("login.html", users = users)
     else:
         return None
 
@@ -16,13 +16,16 @@ def home_page():
 def registration():
     login = request.form.get("login")
     password = request.form.get("password")
-    print(login,password)
     create_user(login, password)
-    redirect("/")
+    return redirect("/")
 
 @app.before_request
 def load_user():
     g.user = {}
 
+
+
 if __name__ == "__main__":
     app.run("0.0.0.0", 5000)
+
+    

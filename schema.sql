@@ -1,11 +1,9 @@
-drop table if exists posts;
-	create table posts (
+create table if not exists posts (
 		content text not null
 );
-
-drop table if exists users;
-	create table users (
+drop table users;
+create table if not exists users (
 		id integer primary key autoincrement,
-		login text not null,
-		password text not null
+		logins varchar(255) not null,
+		passwords varchar(255) not null
 );
