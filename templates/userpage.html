@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>{{ user[0][1] }}</title>
+</head>
+<body>
+    <header>
+        <h1>Hello {{ user[0][1] }}</h1>
+    </header>
+    <main>
+        <div style="display: flex; justify-content: space-between;">
+            <form class="blogForm" action="post_blog">
+                <h1>Post blog</h1>
+                <input type="" placeholder="Enter your thoughts">
+                <input type="submit">
+            </form>            
+            <div class="blogForm danger">
+                <h1>Danger zone</h1>
+                <form action="logout">
+                    <button class="logout" type="submit">Logout</button>
+                </form>
+                <form action="delete">
+                    <button class="logout" type="submit">Delete Account</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="posts">
+            <h1>Your posts</h1>
+            <div class="holder">
+                <div class="post">
+                    <h1>Date</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at iste quod incidunt. Eaque rerum tempore officiis hic beatae laudantium minus quaerat debitis unde sequi numquam, ipsa sunt quia id.</p>
+                </div>            
+                <div class="post">
+                    <h1>Date</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio at iste quod incidunt. Eaque rerum tempore officiis hic beatae laudantium minus quaerat debitis unde sequi numquam, ipsa sunt quia id.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="logout">Log Out</button>
+    </main>
+</body>
+</html>

@@ -41,3 +41,46 @@ body, html {
 .Form > label > a {
     color: gray;
 }
+header {
+    background-color: aquamarine;
+}
+header >button {
+    float: right;
+}
+
+.blogForm {
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+}
+.danger {
+    background-color: red;
+}
+.blogForm > h1 {
+    padding: 0.5rem;
+}
+.blogForm  * {
+    padding: 1rem;
+}
+.blogForm > input[type="text"] {
+    background-color: aqua;
+    border:none;
+    border-bottom: 1px solid;
+}
+.posts {
+    text-align: center;
+}
+.post {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    text-align: start;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.logout {
+    float: right;
+}
