@@ -13,5 +13,9 @@
         <input type="submit">
         <label>Have an account? <a href="#" method="get">Sign up now</a></label>
     </form>
+
+    {% for user in users %}
+        <div>{{ user[1] + ': ' + user[2] }}</div>
+    {% endfor %}
 </body>
 </html>
