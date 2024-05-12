@@ -34,7 +34,7 @@ This Flask project implements a simple blog created by Emin Amirov and Ruslan Ha
 
 ## Folder Structure
 
-
+```rb
 flask_project/
 │
 ├── app.py                    # Main Flask application file
@@ -54,7 +54,7 @@ flask_project/
 │   └── userpage.html         # HTML template for user page
 ├── .gitignore                # Git ignore file
 ├── README.md                 # Readme file for the project
-
+```
 
 ## Contributing
 1. Fork the repository.
