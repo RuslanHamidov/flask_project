@@ -1,3 +1,5 @@
+![alt text](https://mertcangokgoz.com/wp-content/uploads/2018/11/flask-fhd.png)
+
 # Flask Blog Project
 
 This Flask project implements a simple blog created by Emin Amirov and Ruslan Hamidov. It utilizes Flask for the backend, SQLite for the database, Jinja for templating, and HTML/CSS for the frontend.
