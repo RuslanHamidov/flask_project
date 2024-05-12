@@ -32,9 +32,36 @@ This Flask project implements a simple blog created by Emin Amirov and Ruslan Ha
 - Once logged in, you can create new posts, edit existing ones, or delete them.
 - Posts can be filtered by category or author.
 
+## Folder Structure
+
+
+flask_project/
+│
+├── app.py                    # Main Flask application file
+├── database_work/            # Folder for database-related files
+│   ├── database.db           # SQLite database file
+│   └── schema.sql            # Database schema file
+├── scripts/                  # Folder for Python scripts
+│   ├── __pycache__/          # Cached Python files (generated automatically)
+│   ├── models.py             # Python script containing database models
+│   └── site_login.py         # Python script for site login functionality
+├── static/                   # Folder for static files
+│   ├── css/                  # Folder for CSS styles
+│       └── styles.css        # CSS styles file
+│   
+├── templates/                # Folder for HTML templates
+│   ├── login.html            # HTML template for login page
+│   └── userpage.html         # HTML template for user page
+├── .gitignore                # Git ignore file
+├── README.md                 # Readme file for the project
+
+
 ## Contributing
 1. Fork the repository.
 2. Create your feature branch (git checkout -b feature/your-feature).
 3. Commit your changes (git commit -am 'Add some feature').
 4. Push to the branch (git push origin feature/your-feature).
 5. Create a new Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
