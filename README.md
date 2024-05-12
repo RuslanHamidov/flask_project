@@ -26,3 +26,15 @@ This Flask project implements a simple blog created by Emin Amirov and Ruslan Ha
 - pip install -r requirements.txt
 3. Run the application:
 - flask run
+
+## Usage
+- Visit the homepage to browse existing blog posts or register/login to create your own.
+- Once logged in, you can create new posts, edit existing ones, or delete them.
+- Posts can be filtered by category or author.
+
+## Contributing
+1. Fork the repository.
+2. Create your feature branch (git checkout -b feature/your-feature).
+3. Commit your changes (git commit -am 'Add some feature').
+4. Push to the branch (git push origin feature/your-feature).
+5. Create a new Pull Request.
