@@ -6,7 +6,7 @@ This Flask project implements a simple blog created by Emin Amirov and Ruslan Ha
 
 ## Contributors
 - Emin Amirov (Python code & Frontend)
-- Ruslan Hamidov (Database)
+- Ruslan Hamidov (Python code & Database)
 
 ## Features
 - User authentication (register, login, logout)
